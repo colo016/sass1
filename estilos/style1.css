@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*Variables*/
 /* header */
 * {
@@ -68,8 +67,15 @@ body {
 }
 
 /* Fin 2dp anidamiento*/
-/* CSS de cotizá ahora*/
-.aviso24 {
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* 1er anidamiento*/
+div .aviso24 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,7 +85,15 @@ body {
   flex-wrap: wrap;
 }
 
-.avisofotos {
+/* FIN 1er anidamiento*/
+/* 2do anidamiento*/
+div form .camposform {
+  height: 20px;
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+div form .avisofotos {
   display: flex;
   flex-direction: row;
   display: flex;
@@ -92,13 +106,7 @@ body {
   margin-bottom: 130px;
 }
 
-.camposform {
-  height: 20px;
-  width: 200px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-}
-
+/* FIN 2do anidamiento*/
 /* Footer */
 footer {
   background-color: rgb(35, 141, 71);
