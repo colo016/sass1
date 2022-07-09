@@ -1,0 +1,35 @@
+/* CSS de cotizá ahora*/
+
+.aviso24{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+
+.avisofotos{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    margin-left: 50px;
+    margin-bottom: 130px;
+}
+
+.camposform{
+
+    height: 20px;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
