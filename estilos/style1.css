@@ -107,13 +107,13 @@ div form .avisofotos {
 }
 
 /* FIN 2do anidamiento*/
-/* Footer */
+/*Variables*/
+/* 1er anidamiento*/
 footer {
   background-color: rgb(35, 141, 71);
   width: auto;
 }
-
-.etiquetacontenedor {
+footer .etiquetacontenedor {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -122,28 +122,22 @@ footer {
   margin-top: 50px;
   flex-wrap: wrap;
 }
-
-.etiquetasredes {
+footer .etiquetacontenedor .etiquetasredes {
   display: flex;
   flex-direction: row;
   width: 50%;
 }
 
-.etiquetasredes {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-}
-
-.redesycontactocontenedor {
+/* FIN 1er anidamiento*/
+/* 2do anidamiento*/
+footer .redesycontactocontenedor {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   height: 100px;
   flex-wrap: wrap;
 }
-
-.redescontenedor {
+footer .redesycontactocontenedor .redescontenedor {
   display: flex;
   flex-direction: row;
   width: 500px;
@@ -153,28 +147,18 @@ footer {
   flex-wrap: wrap;
   height: 100px;
 }
-
-.contactocontenedor {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  justify-content: space-evenly;
-  margin-right: 100px;
-  height: 250px;
-  flex-wrap: wrap;
+footer .redesycontactocontenedor .redescontenedor .iconofb {
+  width: 100px;
+  height: 50px;
 }
-
-.iconoig {
+footer .redesycontactocontenedor .redescontenedor .iconoig {
   width: 100px;
   height: 50px;
 }
 
-.iconofb {
-  width: 100px;
-  height: 50px;
-}
-
-.contenedordatoscontacto {
+/* FIN 2do anidamiento*/
+/* 3er anidamiento*/
+footer .contenedordatoscontacto {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -183,8 +167,15 @@ footer {
   width: 500px;
   flex-wrap: wrap;
 }
-
-.contenedorwsp {
+footer .contenedordatoscontacto .contenedorwsp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 95px;
+}
+footer .contenedordatoscontacto .contenedorwsp .iconowsp {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -193,16 +184,19 @@ footer {
   padding-right: 95px;
 }
 
-.contenedorgmail {
+/* FIN 3er anidamiento*/
+/* 4to anidamiento*/
+footer .contenedordatoscontacto .contenedorgmail {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
-
-.iconogmail, .iconowsp {
+footer .contenedordatoscontacto .contenedorgmail .iconogmail {
   height: 50px;
 }
+
+/* FIN 4to anidamiento*/
 
 /*# sourceMappingURL=style1.css.map */
