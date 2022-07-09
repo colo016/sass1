@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Variables*/
 /* header */
 * {
   margin: 0;
@@ -15,14 +16,40 @@ a {
   color: black !important;
 }
 
+body {
+  background-color: lightgray !important;
+  font-family: none !important;
+}
+
+/* 1er anidamiento*/
 .cabecera {
-  background-color: rgb(35, 141, 71);
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  background-color: rgb(35, 141, 71);
+}
+.cabecera .logo {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 50vh;
+  margin-left: 20px;
+  animation: flip 4s linear infinite;
+}
+@keyframes flip {
+  50% {
+    transform: rotateX(180deg);
+  }
+}
+.cabecera .logo .empresa {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Anton", sans-serif;
 }
 
-.menu {
+/* Fin 1er anidamiento*/
+/*  2do anidamiento*/
+.cabecera div nav .menu {
   height: 10vh !important;
   display: flex !important;
   flex-direction: row !important;
@@ -33,35 +60,14 @@ a {
   align-items: center !important;
   flex-wrap: wrap;
 }
-
-.item {
+.cabecera div nav .menu .item {
   font-family: "Kanit", sans-serif !important;
   justify-content: flex-end !important;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  height: 10vh;
-  width: 50vh;
-  margin-left: 20px;
-  animation: flip 4s linear infinite;
-}
-
-@keyframes flip {
-  50% {
-    transform: rotateX(180deg);
-  }
-}
-.empresa {
-  margin-left: 10px;
-  margin-top: 10px;
-  font-family: "Anton", sans-serif;
-}
-
-/*  Fin header */
+/* Fin 2dp anidamiento*/
 /* CSS de cotizá ahora*/
 .aviso24 {
   display: flex;
