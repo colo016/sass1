@@ -1,3 +1,202 @@
+/*Variables*/
+/* header */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+body {
+  background-color: lightgray !important;
+  font-family: none !important;
+}
+
+/* 1er anidamiento*/
+.cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(35, 141, 71);
+}
+.cabecera .logo {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 50vh;
+  margin-left: 20px;
+  animation: flip 4s linear infinite;
+}
+@keyframes flip {
+  50% {
+    transform: rotateX(180deg);
+  }
+}
+.cabecera .logo .empresa {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Anton", sans-serif;
+}
+
+/* Fin 1er anidamiento*/
+/*  2do anidamiento*/
+.cabecera div nav .menu {
+  height: 10vh !important;
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+  justify-content: space-evenly !important;
+  margin-left: 260px !important;
+  margin-right: 12px !important;
+  align-items: center !important;
+  flex-wrap: wrap;
+}
+.cabecera div nav .menu .item {
+  font-family: "Kanit", sans-serif !important;
+  justify-content: flex-end !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Fin 2dp anidamiento*/
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* 1er anidamiento*/
+div .aviso24 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+/* FIN 1er anidamiento*/
+/* 2do anidamiento*/
+div form .camposform {
+  height: 20px;
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+div form .avisofotos {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  height: 100px;
+  margin-left: 50px;
+  margin-bottom: 130px;
+}
+
+/* FIN 2do anidamiento*/
+/*Variables*/
+/* 1er anidamiento*/
+footer {
+  background-color: rgb(35, 141, 71);
+  width: auto;
+}
+footer .etiquetacontenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100% !important;
+  font-family: "Poppins", sans-serif !important;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+footer .etiquetacontenedor .etiquetasredes {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+/* FIN 1er anidamiento*/
+/* 2do anidamiento*/
+footer .redesycontactocontenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  flex-wrap: wrap;
+}
+footer .redesycontactocontenedor .redescontenedor {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-left: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+}
+footer .redesycontactocontenedor .redescontenedor .iconofb {
+  width: 100px;
+  height: 50px;
+}
+footer .redesycontactocontenedor .redescontenedor .iconoig {
+  width: 100px;
+  height: 50px;
+}
+
+/* FIN 2do anidamiento*/
+/* 3er anidamiento*/
+footer .contenedordatoscontacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  width: 500px;
+  flex-wrap: wrap;
+}
+footer .contenedordatoscontacto .contenedorwsp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 95px;
+}
+footer .contenedordatoscontacto .contenedorwsp .iconowsp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 95px;
+}
+
+/* FIN 3er anidamiento*/
+/* 4to anidamiento*/
+footer .contenedordatoscontacto .contenedorgmail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .contenedordatoscontacto .contenedorgmail .iconogmail {
+  height: 50px;
+}
+
+/* FIN 4to anidamiento*/
 
 /*# sourceMappingURL=style1.css.map */

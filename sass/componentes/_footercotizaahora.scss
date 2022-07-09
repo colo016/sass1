@@ -1,0 +1,136 @@
+@import "../base/variables";
+
+
+/* 1er anidamiento*/
+
+footer{
+    background-color: $bg-headeryfooter;
+    width: auto;
+    .etiquetacontenedor{   display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100% !important;
+        font-family: 'Poppins', sans-serif !important;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        .etiquetasredes{ display: flex;
+            flex-direction: row;
+            width: 50%;
+
+        }
+        
+    }
+
+
+}
+
+
+/* FIN 1er anidamiento*/
+
+/* 2do anidamiento*/
+
+footer{
+
+    .redesycontactocontenedor{ display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100px;
+        flex-wrap: wrap;
+
+        .redescontenedor{
+
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            margin-left: 5px;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100px;
+            .iconofb{width: 100px;
+                height: 50px;}
+
+            .iconoig{width: 100px;
+                height: 50px;
+
+            }
+
+
+
+        }
+
+    }
+}
+/* FIN 2do anidamiento*/
+
+
+/* 3er anidamiento*/
+
+footer{
+
+    .contenedordatoscontacto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: $font-formulario;
+    margin-left: 50px;
+    width: 500px;
+    flex-wrap: wrap;
+    .contenedorwsp{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 95px;
+
+        .iconowsp{display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-right: 95px;
+
+        }
+
+    }
+
+    }
+}
+
+/* FIN 3er anidamiento*/
+
+/* 4to anidamiento*/
+
+footer{
+
+    .contenedordatoscontacto{
+
+        .contenedorgmail{ display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            .iconogmail{
+
+                height: 50px;
+            }
+
+
+        }
+
+    
+    }
+}
+
+/* FIN 4to anidamiento*/
+
+
+
+
+
+
+
+
+
+
